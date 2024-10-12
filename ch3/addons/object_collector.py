@@ -8,7 +8,7 @@ bl_info = {
     "category": "Object",
 }
 
-import bp
+import bpy
 
 class OBJECT_OT_collector_types(bpy.types.Operator):
     """Create collections based on objects types"""
